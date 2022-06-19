@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+
+
+	<title>Contact</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+<style type="text/css">
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left : 25%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.sub {
+  border-radius: 5px;
+  padding: 5%;
+  margin-left : 25%;
+  
+}
+
+}
+.subject {
+	width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+}
+.contactus{
+	text-align:center;
+	margin-top:50px;
+}
+
+
+  
+</style>
+<link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="main">
+<div class="topnav">
+  <a  href="index.html">Home</a>
+  <a class="active" href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+
+
+<h3 class="contactus">Contact Us</h3>
+
+<div class="sub">
+
+  <form id="submit-form" action="">
+  
+    <label for="fname">Full Name</label> <br>
+    <input type="text" id="fname" name="Firstname" placeholder="Your Name.."><br>
+
+    <label for="email">Email</label><br>
+    <input type="Email" id="email" name="email" placeholder="Your Email.."><br>
+
+    <div class="row">
+    
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    </div>
+  </div>
+  
+    <input type="submit" value="Submit">
+   
+  </form>
+  
+</div>
+
+
+
+	
+<script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+</body>
+</html>
