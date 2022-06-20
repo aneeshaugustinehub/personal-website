@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  }
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background:#fff;
+  height:47px;
+  width:100%;
+  
+  }
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #06F;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.nemebar {
+	background-color: #333;
+	color:#FFF;
+	height: 14em;
+	width: 100%;
+	text-align:center;
+	padding-top: 64px;
+	
+}
+
+.name{
+	margin: 0px;
+	padding-top:50px;
+	padding-left:1 px;
+	font-size:1em;
+}
+.row{
+	margin-top:5em;
+	}
+.social{
+	background:#333;
+	width:100%;
+	height:4em;
+	text-align:center;
+	padding-top:10px;
+	float:left;
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left : 25%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.sub {
+  border-radius: 5px;
+  padding: 5%;
+  margin-left : 25%;
+  
+}
+
+}
+.subject {
+	width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+}
+.contactus{
+	text-align:center;
+	margin-top:50px;
+}
