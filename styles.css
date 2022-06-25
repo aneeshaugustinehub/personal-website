@@ -60,9 +60,9 @@ body {
 }
 
 .name{
+	margin: auto;
 	text-align: center;
 	display: block;
-	
 	font-size:2em;
 }
 .row{
