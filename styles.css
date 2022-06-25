@@ -60,6 +60,7 @@ body {
 }
 
 .name{
+	text-align: center;
 	display: block;
 	
 	font-size:2em;
