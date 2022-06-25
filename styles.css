@@ -60,7 +60,9 @@ body {
 }
 
 .name{
-	margin: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top:50px;
 	padding-left:1 px;
 	font-size:2em;
