@@ -116,10 +116,8 @@ input[type=submit]:hover {
   margin-left : 25%;
   
 }
-
-}
 .subject {
-	width: 90%;
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
