@@ -1,5 +1,5 @@
-<script>
-        $("#submit-form").submit((e)=>{
+
+$("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbwagLP_m2FdV6o4wWvBeXRoXuW107hgm0Rha3hp_q9nJupwlkPV0Bv5QSEfiz8Wi018sQ/exec",
@@ -16,9 +16,9 @@
                 }
             })
         })
-    </script>
 
-<script>
+
+
 	function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -27,4 +27,3 @@
     x.style.display = "block";
   }
 }
-</script>
